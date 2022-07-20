@@ -48,12 +48,12 @@ nav{
     font-size: 1.1rem;
     font-weight: 500;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: black;
 }
 
 .nav-links a:hover{
     color: green;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .home{
@@ -65,7 +65,7 @@ nav{
 }
 
 .home-content h1{
-    color: rgb(253, 253, 253);
+    color: black;
     font-size: 3.2rem;
     font-weight: 600;
 }
@@ -74,7 +74,7 @@ nav{
 }
 
 .home-content p{
-    color: white;
+    color: black;
     font-size: 2rem;
 }
 
@@ -85,19 +85,48 @@ nav{
 .btn-2{
     padding: 0.5rem 3rem;
     margin-top: 1rem;
-    border: solid 1px white;
+    border: solid 1px black;
     background-color: transparent;
-    color: white;
+    color: black;
     font-size: 1rem;
 }
 .btn-2 span{
-    color: white;
+    color: black;
 }
 
 .btn-2:hover{
     transition: 0.2s ease-in;
     background-color: rgba(255, 255, 255, 0.185);
     cursor: pointer;
+}
+/* Travel Form */
+
+.header-form{
+    border-radius: 0.2rem;
+}
+
+.flex{
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control{
+    padding: 0.8rem 1rem;
+    margin-right: 1rem;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.form-control::placeholder{
+    color: black;
+}
+
+.flex .btn-2{
+    margin: 0;
+    padding: 0.7rem 2rem;
 }
 /* Card Section */
 
@@ -156,4 +185,43 @@ nav{
 .btn-1:hover span{
     margin-left: 0.5rem;
     transition: 0.2s;
+}
+
+/* About us */
+
+#about-us{
+    margin: 5rem 0;
+    padding: 5rem 0;
+    background-color: #c0c0c22f;
+    width: 100%;
+    justify-content: center;
+}
+
+.container-about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 2rem;
+}
+
+.container-about img{
+    max-width: 32%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.about-content{
+    max-width: 50%;
+}
+
+.about-content p{
+    margin-top: 2rem;
+}
+
+.about-content .btn-2{
+    margin-top: 2rem;
+}
+
+.about-content .btn-2:hover{
+    background-color:#adadad2f; ;
 }
