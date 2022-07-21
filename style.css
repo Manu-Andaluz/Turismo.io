@@ -290,7 +290,18 @@ nav{
         margin: 0;
     }
 
-    .about-content img{
-        width: 100%;
+    .container-about{
+        display: block;
+        text-align: center;
+    }
+
+    .container-about img{
+        min-width: 300px;
+    }
+
+    .about-content{
+        text-align: center;
+        margin-top: 2rem;
+        max-width: 100%;
     }
 }
