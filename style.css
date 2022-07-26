@@ -7,6 +7,7 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* NavBar */
 nav{
     background-image: url(images/mountain1.jpg);
     background-position: center;
@@ -46,8 +47,8 @@ nav{
 }
 
 .nav-links a{
-    font-size: 1.1rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 600;
     text-decoration: none;
     color: black;
 }
@@ -138,8 +139,16 @@ nav{
     border: 1px solid black;
 }
 
+.form-control{
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
 .form-control::placeholder{
     color: black;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 .flex .btn-2{
